@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #setwd("/Volumes/Macintosh HD 2/HU-Box/Meine Bibliothek/Projekte extern/ANIT/Analysen Berlin")
+=======
+setwd("/Volumes/Macintosh HD 2/HU-Box/Meine Bibliothek/Projekte extern/ANIT/Analysen Berlin")
+>>>>>>> 82df76bc351b36e99784b49ef99f21e7f5ba6cb1
 
 library(foreign)
 anit <- read.spss("ALLINT_(N=684)_[29.07.2016].sav", to.data.frame = T, use.missings = T, use.value.labels = F)
